@@ -8,6 +8,7 @@ body {
     width: 200px;
     border-radius: 100%;
 }
+
 .MainTitle {
     background-color: #8BAE91;
     text-align: center;
@@ -228,4 +229,54 @@ footer p{
 
 footer a{
     padding: 15px 40px; 
+}
+
+
+@media (max-width:1048px) {
+    .flex-container{
+        flex-direction: column;
+    }
+    #bloque1 .izquierda{
+        align-items: center;
+        text-align: center;
+        position: inherit;
+        font-size: 45%;
+    }
+    #bloque1 img{
+        border-radius: 100px;
+        margin: 0;
+        opacity: 50%;
+        z-index: 1;
+        position: relative;
+        width: 70%;
+        padding: 25px;
+    }
+    #bloque1 .derecha{
+        background-color: whitesmoke;
+        padding: 30px;
+    }
+    .flex-container #bloque2{
+        flex-direction: column-reverse;
+    }
+    #bloque2 .izquierda{
+        font-size: 40%;
+        padding: 30px;
+    }
+    
+    #bloque2 img{
+        border-radius: 100px;
+        margin: 0;
+        opacity: 50%;
+        z-index: 1;
+        position: relative;
+        width: 70%;
+        padding: 25px;
+    }
+    #bloque2 .derecha{
+        align-items: center;
+        text-align: center;
+        position: inherit;
+        font-size: 45%;
+
+    }
 }

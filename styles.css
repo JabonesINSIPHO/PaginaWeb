@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    font-size: 50px;
+}
+
+#logo{
+    opacity: 80%;
+    width: 200px;
+    border-radius: 100%;
+}
+.MainTitle {
+    background-color: #b68d71;
+    text-align: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+#Title {
+    padding: 10px;
+    margin: 0;
+    font-size: 100%;
+    color: white;
+}
+#STitle{
+    padding: 30px;
+    padding-top: 0px;
+    padding-bottom: 40px;
+    margin: 0;
+    font-size: 45%;
+    color: whitesmoke;
+}
+
+.navbar {
+    background-color: #a76b46;
+    margin: 0;
+    border: 7px;
+    padding: 7px;
+    font-size: 37%;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.btn {
+    text-decoration: none;
+    font-size: 100%;
+    color: white;
+    background-color: #b68d71;
+    border: 2px solid #b68d71;
+    margin: 7px;
+    padding: 10px;
+    border-radius: 5%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+.btn:hover {
+    border: 2px solid #a76b46;
+}
+
+a{
+    text-decoration: none;
+    text-decoration-color: none;
+    color: white;
+    padding: 30px;
+}
+li{
+    list-style: none;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+#bloque1{
+    flex-direction: row;
+    margin: 0;
+    padding: 10px;
+    background-color: #e2cfc0;
+    font-size: 100%;
+}
+#bloque1 .izquierda{
+    z-index: 2;
+    margin: 0;
+    font-size: 45%;
+    left: 5%;
+    position: absolute;
+}
+#bloque1 img{
+    border-radius: 100px;
+    margin: 0;
+    opacity: 50%;
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    padding: 25px;
+}
+#bloque1 .derecha{
+    background-color: #e2cfc0;
+    margin: 0;
+    font-size: 40%;
+    right: 35%;
+}
+
+
+#bloque2{
+    flex-direction: row;
+    background-color: #b68d71;
+    margin: 0;
+    padding: 10px;
+    font-size: 100%;
+}
+
+#bloque2 .izquierda{
+    color: white;
+    background-color: #b68d71;
+    margin: 0;
+    font-size: 40%;
+}
+
+#bloque2 img{
+    border-radius: 100px;
+    margin: 0;
+    opacity: 50%;
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    padding: 25px;
+}
+
+#bloque2 .derecha{
+    z-index: 2;
+    margin: 0;
+    font-size: 45%;
+    right: 2.5%;
+    position: absolute;
+}
+
+
+
+footer{
+    background-color: #a76b46;
+    margin: 0;
+    font-size: 100%;
+    padding: 20px;
+    padding-bottom: 5px;
+}
+
+.footer-cont{
+    font-size: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+footer p{
+    font-size: 75%;
+    color: white;
+}

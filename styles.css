@@ -9,29 +9,27 @@ body {
     border-radius: 100%;
 }
 .MainTitle {
-    background-color: #b68d71;
+    background-color: #8BAE91;
     text-align: center;
     align-items: center;
     padding-top: 50px;
 }
 
 #Title {
-    padding: 10px;
     margin: 0;
     font-size: 100%;
     color: white;
+    padding-bottom: 0;
 }
 #STitle{
-    padding: 30px;
-    padding-top: 0px;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
     margin: 0;
     font-size: 45%;
     color: whitesmoke;
 }
 
 .navbar {
-    background-color: #a76b46;
+    background-color: #627264;
     margin: 0;
     border: 7px;
     padding: 7px;
@@ -40,16 +38,19 @@ body {
     text-align: center;
     color: white;
 }
+.navbar a{
+    padding: 15px 40px;
+}
 
 .btn {
     text-decoration: none;
     font-size: 100%;
     color: white;
-    background-color: #b68d71;
-    border: 2px solid #b68d71;
+    background-color: #8BAE91;
+    border: 2px solid #8BAE91;
     margin: 7px;
-    padding: 10px;
-    border-radius: 5%;
+    padding: 17px 0px;
+    border-radius: 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -57,17 +58,20 @@ body {
     justify-content: center;
 }
 .btn:hover {
-    border: 2px solid #a76b46;
+    border: 2px solid #627264;
 }
 
 a{
     text-decoration: none;
     text-decoration-color: none;
     color: white;
-    padding: 30px;
 }
 li{
     list-style: none;
+}
+
+i {
+    margin: 5px;
 }
 
 .flex-container{
@@ -81,7 +85,7 @@ li{
     flex-direction: row;
     margin: 0;
     padding: 10px;
-    background-color: #e2cfc0;
+    background-color: whitesmoke;
     font-size: 100%;
 }
 #bloque1 .izquierda{
@@ -101,7 +105,7 @@ li{
     padding: 25px;
 }
 #bloque1 .derecha{
-    background-color: #e2cfc0;
+    background-color: whitesmoke;
     margin: 0;
     font-size: 40%;
     right: 35%;
@@ -110,15 +114,15 @@ li{
 
 #bloque2{
     flex-direction: row;
-    background-color: #b68d71;
+    background-color: whitesmoke;
     margin: 0;
     padding: 10px;
     font-size: 100%;
 }
 
 #bloque2 .izquierda{
-    color: white;
-    background-color: #b68d71;
+    color: black;
+    background-color: whitesmoke;
     margin: 0;
     font-size: 40%;
 }
@@ -142,9 +146,54 @@ li{
 }
 
 
+.caja-contacto{
+    padding: 40px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 100%;
+}
+.caja-contacto #Title{
+    font-size: 60%;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 footer{
-    background-color: #a76b46;
+    background-color: #627264;
     margin: 0;
     font-size: 100%;
     padding: 20px;
@@ -159,7 +208,12 @@ footer{
     justify-content: center;
     text-align: center;
 }
+
 footer p{
     font-size: 75%;
     color: white;
+}
+
+footer a{
+    padding: 15px 40px; 
 }

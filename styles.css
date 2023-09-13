@@ -163,7 +163,7 @@ i {
     text-align: center;
     justify-content: center;
     padding: 30px;
-    margin: 10px;
+    margin: 20px;
     margin-top: 0;
     
 }
@@ -183,7 +183,8 @@ i {
 
 .card img{
     border-radius: 5px;
-    width: 100%;
+    width: 296px;
+    height: 206px;
 }
   
 .card:hover {

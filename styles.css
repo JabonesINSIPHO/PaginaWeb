@@ -117,7 +117,7 @@ i {
 #bloque1 .derecha{
     background-color: whitesmoke;
     margin: 0;
-    font-size: 40%;
+    font-size: 45%;
     right: 35%;
 }
 
@@ -136,7 +136,7 @@ i {
     color: black;
     background-color: whitesmoke;
     margin: 0;
-    font-size: 40%;
+    font-size: 45%;
 }
 
 #bloque2 img{
@@ -163,9 +163,13 @@ i {
     text-align: center;
     justify-content: center;
     padding: 30px;
-    margin: 30px;
+    margin: 10px;
     margin-top: 0;
     
+}
+.card .subtitulo{
+    font-size: 30%;
+    text-align: center;
 }
 .card {
     display: flex;

@@ -78,6 +78,10 @@ i {
     margin: 5px;
 }
 
+p a{
+    color: #8BAE91;
+}
+
 .subtitulo{
     font-family: serif
 }

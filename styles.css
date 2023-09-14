@@ -102,7 +102,7 @@ i {
     z-index: 2;
     margin: 0;
     font-size: 45%;
-    left: 5%;
+    left: 10%;
     position: absolute;
 }
 #bloque1 img{
@@ -119,6 +119,7 @@ i {
     margin: 0;
     font-size: 45%;
     right: 35%;
+    padding: 100px;
 }
 
 
@@ -137,6 +138,7 @@ i {
     background-color: whitesmoke;
     margin: 0;
     font-size: 45%;
+    padding: 100px;
 }
 
 #bloque2 img{
@@ -153,7 +155,7 @@ i {
     z-index: 2;
     margin: 0;
     font-size: 45%;
-    right: 2.5%;
+    right: 10%;
     position: absolute;
 }
 
@@ -245,7 +247,7 @@ footer a{
         align-items: center;
         text-align: center;
         position: inherit;
-        font-size: 45%;
+        font-size: 32%;
     }
     #bloque1 img{
         border-radius: 100px;
@@ -258,7 +260,8 @@ footer a{
     }
     #bloque1 .derecha{
         background-color: whitesmoke;
-        padding: 30px;
+        font-size: 40%;
+        padding: 40px;
     }
     .flex-container #bloque2{
         flex-direction: column-reverse;
@@ -281,7 +284,17 @@ footer a{
         align-items: center;
         text-align: center;
         position: inherit;
-        font-size: 45%;
+        font-size: 32%;
 
+    }
+}
+@media (max-width:440px){
+    .navbar{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        align-content: center;
+        align-self: center;
+        justify-content: center;
     }
 }

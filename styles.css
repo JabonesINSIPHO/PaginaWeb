@@ -82,6 +82,10 @@ p a{
     color: #8BAE91;
 }
 
+h2 a {
+    color: #8BAE91;
+}
+
 .subtitulo{
     font-family: serif
 }
@@ -208,9 +212,6 @@ p a{
     padding: 2px 16px;
 }
 
-#papus{
-    size: auto;
-}
 
 
 

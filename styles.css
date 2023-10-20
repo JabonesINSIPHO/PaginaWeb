@@ -82,9 +82,6 @@ p a{
     color: #8BAE91;
 }
 
-h2 a {
-    color: #8BAE91;
-}
 
 .subtitulo{
     font-family: serif
@@ -165,6 +162,9 @@ h2 a {
     font-size: 45%;
     right: 10%;
     position: absolute;
+}
+#bloque2 .derecha a{
+    color: #8BAE91;
 }
 
 .flex-container .card{
